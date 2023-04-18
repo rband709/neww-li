@@ -1,0 +1,39 @@
+{
+  "name": "Telegram Streamer File",
+  "description": "Robot to convert files to direct links, hosting files on Telegram servers, unlimited and without restrictions",
+  "website": "https://t.me/s/itbotz",
+  "repository": "https://github.com/fpband/linkget",
+  "logo": "https://newdlstar.herokuapp.com/44c01",
+  "env": {
+    "api_id": {
+      "description": "api_id Telegram to develop a robot to receive my.telegram.org ",
+      "required": "true",
+      "value": "3335796"
+    },
+    "api_hash": {
+      "description": "api_hash Telegram to develop a robot to receive my.telegram.org ",
+      "required": "true",
+      "value": "138b992a0e672e8346d8439c3f42ea78"
+    },
+    "channel_files_chat_id": {
+      "description": " Telegram channel chat ID for storing and managing files",
+      "required": "true",
+      "value": "-1001621703668"
+    },
+    "channel_username": {
+      "description": "Telegram channel username for support",
+      "required": "true",
+      "value": "seriesplus1"
+    },
+    "token": {
+      "description": "Telegram robot token for launch .",
+      "required": "true",
+      "value": "5535287993:AAFvr3OJAbuMwKEvBDgB0nwIKbmwoLNqw1A"
+    },
+    "domain": {
+      "description": "Heroku application domain Example: https://newdlstar.herokuapp.com",
+      "required": "true",
+      "value": "https://newfasterlink80.osc-fr1.scalingo.io"
+    }
+  }
+}
